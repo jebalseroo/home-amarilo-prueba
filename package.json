@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://jebalseroo.github.io/home-amarilo-prueba",
   "scripts": {
+    "output": "export",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d .next",
     "dev": "next dev",
