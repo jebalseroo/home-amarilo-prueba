@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,900&display=swap');
+
+.flex {
+  display: inline-flex;
+  width: 100%
+}
+.title_proyectos{
+  margin: 20px;
+  border-bottom: 1px #000000 solid;
+  font-size: 40px;
+}
+div {
+  button {
+    background: #ffd900;
+    padding: 5px;
+    border-radius: 20px;
+    width: 15rem;
+    display: inline;
+    position: relative;
+    top: 242px;
+    right: 266px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 900;
+
+  }
+
+  button:hover {
+    background: #000000;
+    color: #ffd900;
+  }
+}
+.proyectos {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.Secciones {
+  display: inline-flex;
+  justify-content: center;
+  align-items:start;
+
+}
+.card{
+  margin: 10px;
+}
+
+header {
+  z-index: 100;
+
+  nav {
+    display: flex;
+    border-bottom: #c5c4c4 2px solid;
+
+    img {
+
+      height: 55px;
+      left: 10px;
+      top: 10px;
+    }
+
+    ul {
+      list-style: none;
+      overflow: hidden;
+
+      li {
+        float: left;
+        font-family: Arial, Helvetica, sans-serif;
+        ;
+        font-size: 20px;
+        margin: 2px;
+      }
+
+      li:hover {
+
+        border-bottom: 2px solid #ffd900;
+        border-left: 3px solid #ffd900;
+      }
+
+      a {
+        display: block;
+        padding: 5px 20px;
+        color: #000000;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+footer{
+  background: #ffd900;
+  width: 100%;
+  padding: 20px;
+}
