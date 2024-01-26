@@ -2,8 +2,9 @@
   "name": "home-amarilo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://jebalseroo.github.io/home-amarilo-prueba",
+  "homepage": "https://jebalseroo.github.io/home-amarilo-prueba",
   "scripts": {
+    "export": "next export",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d .next",
     "dev": "next dev",
