@@ -13,7 +13,7 @@
         margin: 2px;
     }
   }
-`,a=({Titulo:e,Secciones:t})=>{let r=Object.keys(t).map(e=>n.jsx("li",{children:n.jsx("a",{href:"",children:e})}));return n.jsx(i,{children:(0,n.jsxs)("div",{className:"Seccion",children:[n.jsx("h1",{children:e}),n.jsx("ul",{children:r})]})})}},4307:(e,t,r)=>{"use strict";r.r(t),r.d(t,{Card:()=>m});var n=r(5344),o=r(6975);let i=o.ZP.div`
+`,a=({Titulo:e,Secciones:t})=>{let r=t.map(e=>n.jsx("li",{children:n.jsx("a",{href:"",children:e})}));return n.jsx(i,{children:(0,n.jsxs)("div",{className:"Seccion",children:[n.jsx("h1",{children:e}),n.jsx("ul",{children:r})]})})}},4307:(e,t,r)=>{"use strict";r.r(t),r.d(t,{Card:()=>m});var n=r(5344),o=r(6975);let i=o.ZP.div`
 
 .card{
     
