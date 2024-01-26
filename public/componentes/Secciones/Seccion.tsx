@@ -2,14 +2,14 @@
 import SeccionStyle from "./Seccion.styles";
 interface Props {
   Titulo: string;
-  Secciones: {}
+  Secciones: string[];
 }
 
 export const Seccion = ({
   Titulo,
   Secciones,
 }: Props) => {
-  const listItems = Object.keys(Secciones).map((sec:string) =>
+  const listItems = Secciones.map((sec:string) =>
   <li><a href="">{sec}</a></li>
 )
   return (
